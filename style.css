@@ -1,0 +1,45 @@
+body{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 20px;
+    width: 400px;
+    height: fit-content;
+    background-color: #445a64;
+    border-radius: 10px;
+
+}
+.screen{
+    background-color: #445a64;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    color: #f5f5f5;
+    font-size: 60px;
+     margin-top: 50px;
+     font-family: sans-serif;    
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+button{
+    flex: 20%;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #445a64;
+    color: #f5f5f5;
+    opacity: .8;                    /*jo dark hua  h light k skte h font ko*/
+    box-shadow: -8px -8px 15px rgba(255, 255,255,0.1);
+    font-family: sans-serif;
+}
+.btn{
+    color: #33ffdf;
+
+}
